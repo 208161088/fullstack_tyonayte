@@ -12,12 +12,8 @@ import blogService from './services/blogs'
 import userService from './services/users'
 import loginService from './services/login'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+
 class App extends React.Component {
-  /*
-  static propTypes = {
-    children: PropTypes.node
-  }
-*/
   constructor(props) {
     super(props)
     this.state = {
